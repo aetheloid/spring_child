@@ -8,6 +8,13 @@
 
 @import "assets/bootstrap4";
 
+// Overriden mixins from bootstrap
+
+@import "mixins/_alert.scss";
+@import "mixins/_background-variant.scss";
+@import "mixins/_forms.scss";
+@import "mixins/_modals.scss";
+@import "mixins/_popover.scss"; 
 
 @import "../src/sass/understrap/understrap/understrap";// <-------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
 @import "../src/sass/understrap/understrap/woocommerce";// <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
@@ -17,5 +24,4 @@
 @import "assets/underscores"; // <------- Underscores media styles
 
 // Any additional imported files //
-@import "theme/child_theme";  // <--------- Add your styles into this file
 @import "../src/sass/understrap/theme/contact-form7";// <-------- Loads some basic styling for contact form 7 plugin
