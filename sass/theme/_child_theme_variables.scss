@@ -67,7 +67,7 @@ $colors: map-merge((
 ), $colors);
 
 $primary:       #288cff;
-$secondary:     #e8f2ff;
+$secondary:     #0a0a0a;
 $tertiary:      #192b3f;
 $success:       $green;
 $info:          $teal;
@@ -88,7 +88,7 @@ $dribbble:      #ea4c89;
 
 $theme-colors: ();
 $theme-colors: map-merge((
-  "primary":      $primary,
+  "primary":      $primnary,
   "secondary":    $secondary,
   "tertiary":     $tertiary,
   "success":      $success,
